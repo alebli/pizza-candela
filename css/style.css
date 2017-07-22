@@ -39,6 +39,14 @@
 	font-family: "Roboto";
 }
 
+.Menu1 {
+	margin-left: 20%;
+	width: 60%;
+	height: auto;
+	align-items: center;
+	font-family: "Roboto";
+}
+
 .Menu span {
 	display: block;
 	margin-top: 1.5%;
@@ -68,6 +76,10 @@
 
 .Menu:hover #mapa {
 	box-shadow: 0px 1px 3px 3px yellow;
+}
+
+#MenuHide {
+	display: none;
 }
 
 .LogoMenu {
@@ -106,8 +118,8 @@
 	width: 40%;
 	height: 40%;
 	padding-top: 2%;
-	margin-left: 30%;
 	padding-bottom: 1%;
+	margin-left: 30%;
 }
 
 #Nombre {
@@ -117,9 +129,15 @@
 	color: white;
 }
 
+#Opciones {
+	margin: 0;
+}
+
 .Menu {
 	display: flex;
 	width: auto;
+	margin-left: 10%;
+	margin-right: 10%;
 	height: auto;
 	align-items: center;
 	border-bottom: 2px solid grey;
@@ -128,15 +146,19 @@
 
 .Menu span {
 	margin-left: 0%;
+	width: 100%;
 	display: block;
 	margin-top: 1.5%;
 }
 
 .Menu img {
-	display: block;
 	border-radius: 100px;
 	margin-bottom: 1em;
 	margin-top: 1em;
+}
+
+.Menu #MenuHide {
+	
 }
 
 .Menu:hover {
