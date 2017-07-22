@@ -2,24 +2,6 @@
 	margin: 0;
 }
 
-body {
-  font-family: 'Noto Sans', sans-serif;
-  margin-top: 10em;
-	margin:0;
-	width:100%;
-	height:100vh;
-  	background:white;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.container{
-  max-width: 600px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-
 #Inicio {
 	width: 100%;
 	background-color: #488631;
@@ -43,25 +25,25 @@ body {
 #Nombre {
 	font-family: 'Leckerli One';
 	padding-bottom: 1%;
-	font-size: 20px;
+	font-size: 250%;
 	color: white;
 }
 
 .Menu {
-	margin-left: 0;
+	margin-left: 20%;
 	display: flex;
-	width: 100%;
+	width: 60%;
 	height: auto;
 	align-items: center;
 	border-bottom: 2px solid grey;
+	font-family: "Roboto";
 }
 
 .Menu span {
 	display: block;
 	margin-top: 1.5%;
-	margin-left: 20px;
-	margin-right: 20px;
-	width: 100%;
+	margin-left: 20%;
+	width: 30%;
 }
 
 .Menu img {
@@ -69,7 +51,7 @@ body {
 	border-radius: 100px;
 	margin-bottom: 1em;
 	margin-top: 1em;
-	margin-right: 20px;
+	margin-left: 20%;
 }
 
 .Menu:hover {
@@ -99,4 +81,93 @@ body {
 
 #mapa {
 	background-color: yellow;
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+
+* {
+	margin: 0;
+}
+
+#Inicio {
+	width: 100%;
+	background-color: #488631;
+	height: auto;
+	text-align: center;
+}
+
+#Isologo {
+	width: 27%;
+	height: 27%;
+	margin-left: 37.5%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+#Isologo img {
+	-webkit-filter: brightness(5);
+	filter: brightness(5);
+}
+
+#Nombre {
+	font-family: 'Leckerli One';
+	padding-bottom: 1%;
+	font-size: 100%;
+	color: white;
+}
+
+.Menu {
+	margin-left: 20%;
+	display: flex;
+	width: 60%;
+	height: auto;
+	align-items: center;
+	border-bottom: 2px solid grey;
+	font-family: "Roboto";
+}
+
+.Menu span {
+	display: block;
+	margin-top: 1.5%;
+	margin-left: 20%;
+	width: 30%;
+}
+
+.Menu img {
+	display: block;
+	border-radius: 100px;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	margin-left: 20%;
+}
+
+.Menu:hover {
+	border-bottom: 3px solid grey;
+}
+
+.Menu:hover img {
+	
+}
+
+.Menu:hover #pizza {
+	box-shadow: 0px 1px 3px 3px red;
+}
+
+.Menu:hover #mapa {
+	box-shadow: 0px 1px 3px 3px yellow;
+}
+
+.LogoMenu {
+	width: 7em;
+	height: 7em;
+}
+
+#pizza {
+	background-color: red;
+}
+
+#mapa {
+	background-color: yellow;
+}
+
 }
