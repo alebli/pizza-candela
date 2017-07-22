@@ -1,13 +1,4 @@
-body {
-  font-family: 'Noto Sans', sans-serif;
-  margin-top: 10em;
-	margin:0;
-	width:100%;
-	height:100vh;
-  	background:#ffffff;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
+
 
 #header {
 	width:100%;
