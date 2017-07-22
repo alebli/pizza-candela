@@ -1,0 +1,121 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 10em;
+	margin:0;
+	width:100%;
+	height:100vh;
+  	background:#ffffff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#header {
+	width:100%;
+	background: linear-gradient(to right, #70EB79, #BEFEC3, #70EB79);
+	height:50px;
+	line-height:25px;
+	border-bottom:1px solid #black;
+  font-family: 'Leckerli One';
+  display:inline-flex;
+  font-size:12px;
+  position: relative;
+  background-color: black;
+}
+
+.hamburger {
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:3px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.cross {
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:3px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.menu {
+z-index:1000000;
+font-weight:bold;
+font-size:0.8em;
+width:100%;
+background: linear-gradient(to right, #BEFEC3, #70EB79, #BEFEC3);
+position:relative;
+text-align:center;
+font-size:12px;
+position:relative;
+}
+
+.menu ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+list-style-image: none;
+}
+
+.menu li {
+display: block;
+padding:15px 0 15px 0;
+border-bottom:#black 1px solid;
+}
+
+.menu li:hover {
+display: block;
+background: linear-gradient(to right, #70EB79, #BEFEC3, #70EB79);
+padding:15px 0 15px 0;
+color: black;
+border-bottom:#black 1px solid;
+}
+
+.menu ul li a {
+ text-decoration:none;
+ margin: 0px;
+color:#666;
+}
+
+.menu a {
+text-decoration:none;
+color:#666;
+}
+
+.menu a:hover {
+text-decoration:none;
+color:#666;
+}
+
+.glyphicon-home {
+  color:black;
+  font-size:1.5em;
+  margin-top:5px;
+  margin:0 auto;
+}
+
+span {
+margin-left: 45.5%;
+}
+
+#header span h1 {
+color:black;
+text-align: center;
+margin-top: 8%;
+}
